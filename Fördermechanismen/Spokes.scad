@@ -4,8 +4,8 @@ module Spokes(r1, r2, thick, n){
     union(){
       for (i=[0: 1: n]){
         rotate([0,0,360/n*i])
-        translate([-thick/2,r2,0])
-        square([thick,(r1-r2)]);
+        translate([-thick/2,r2/2,0])
+        square([thick,r1]);
       }
       circle(r=r2);
     }
