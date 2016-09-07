@@ -1,8 +1,8 @@
-# Murmelbahnen
-Ein Projekt von peter und cyberkeiler.
+# Marble Track
+A project of @cyberkeiler and @xilensium in the netz39 Hackerspace. 
 
 ## Fördermechanismen
-### Förderrad
+### Elevating Wheel
 ![](docu/images/Foerderrad_1.png)
 
     // Marble Setup
@@ -23,3 +23,11 @@ Ein Projekt von peter und cyberkeiler.
     // Center Hole
     axis_use = true;
     axis_radius = 0.6;
+
+### Marble Pump
+Marbles are taken from one hole and pushed out of another. Building a Vertical tube around the second hole will generate a vertical lift for the marbles. 
+
+### Piston Steps
+There are several continously larger block-pistons placed on one a camshaft. Each Endposition will enable two steps to be on the Same level, so the marble may roll to the next piston ...
+
+### Sawteeth Steps
